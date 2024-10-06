@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p, a {
+    margin-bottom: 0px !important;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    color: #080808;
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar-brand a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+.nav1 {
+    display: flex;
+    background-color: rgba(255, 184, 0, 1);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-top h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px ;
+    text-align: center;
+}
+
+.nav-top button {
+    position: absolute;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+
+#nav {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.home h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.9599999785423279px;
+    text-align: left;
+}
+
+.items {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.expand {
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+}
+
+#balance {
+    width: 15%;
+}
+
+.home-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+}
+
+.home-menu ul li {
+    display: flex;
+    align-items: center;
+}
+
+.home-menu ul li a {
+    font-weight: 500;
+    font-size: 18px;
+ text-decoration: none;
+    padding: 10px 0 10px 0;
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+.start-link {
+    background-color: rgba(255, 184, 0, 1);
+    padding: 12px 12px 12px 12px;
+    border-radius: 32px;
+    transition: 0.3s;
+}
+
+.start-link a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.article-container {
+    display: flex;
+    justify-content: center;
+}
+
+.article-row {
+    width: 90%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+#h3 {
+    width: 30%;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.article-main {
+    width: 50%;
+    text-align: center;
+}
+
+.article-head img {
+    width: 100%;
+    height: auto;
+}
+
+.article-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-info p {
+    display: inline;
+    font-size: 16px;
+    color: rgba(153, 153, 153, 1);
+}
+
+.article-head h1 {
+    font-size: 45px;
+    text-align: left;
+    margin: 14px 0 14px 0;
+}
+
+.article-content {
+    margin-top: 14px;
+    text-align: left;
+}
+
+.content-head {
+    background-color: rgba(255, 184, 0, 1);
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 24px;
+}
+
+.content-head h3 {
+    font-size: 32px;
+    margin-bottom: 7px;
+}
+
+.content-head p {
+    font-size: 18px;
+    color: black;
+}
+
+.email {
+    margin-top: 24px;
+    background-color: black;
+    width: 70%;
+    height: 36px;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.email a {
+    text-decoration: black;
+    color: white;
+    font-size: 16px;
+}
+
+.email img {
+    width: 24px;
+    height: 24px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.atrangi-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.atrangi-products a {
+    text-decoration: none;
+    color: rgba(255, 184, 0, 1);
+}
+
+.card {
+    border-radius: 40px;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.card-info {
+    padding: 9px;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.info h3 {
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.links div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    gap: 20px;
+}
+
+.links h3 {
+    font-size: 24px;
+}
+
+.links ul {
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links ul li {
+    display: inline;
+}
+
+.links a {
+    color: rgba(255, 184, 0, 1);
+    text-decoration: none;
+}
+                            /* footer */
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fleft {
+    width: 70%;
+}
+
+.flogo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.flogo img {
+    border-radius: 50%;
+}
+
+.logo h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.description p {
+    margin-bottom: 10px !important;
+}
+
+.description .highlight {
+    color: rgba(255, 184, 0, 1);
+    font-weight: bold;
+}
+
+.fright {
+    text-align: right;
+    width: 30%;
+}
+
+
+
+
+.weallwin button {
+    background-color: #4CAFFF;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+@media (max-width:768px) {
+    h4 {
+        font-size: 14px !important;
+    }
+    .home h3 {
+        font-size: 21px;
+    }
+    h3,
+    .hashtag span,
+    .hashtag span span {
+        font-size: 24px !important;
+    }
+    .card-info h3 {
+        font-size: 18px;
+    }
+    .card-info p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 32px !important;
+    }
+    .article-row {
+        gap: 0px;
+    }
+    .email {
+        width: 100%;
+        gap: 9px;
+    }
+    .article-content-head {
+        padding: 12px;
+    }
+    .atrangi-products,
+    .links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .social-icons a img {
+        width: 20px;
+        height: 20px;
+    }
+    .social-icons a {
+        margin: 0 5px;
+    }
+    .line {
+        width: 70% !important;
+    }
+}
+
+@media (max-width:480px) {
+    .home h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 12px !important;
+    }
+    h3,
+    .hashtag span,
+    .hashtag span span {
+        font-size: 18px !important;
+    }
+    .card-info h3 {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 22px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    a {
+        font-size: 12px !important;
+    }
+    .email img {
+        width: 18px;
+        height: 18px;
+    }
+    .social-icons a img {
+        width: 16px;
+        height: 16px;
+    }
+    .social-icons a {
+        margin: 0 3px;
+    }
+}
+
+@media (max-width:400px) {
+    .home h3 {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 10px !important;
+    }
+    h3,
+    .hashtag span,
+    .hashtag span span {
+        font-size: 16px !important;
+    }
+    .card-info h3 {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 20px !important;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    a {
+        font-size: 10px !important;
+    }
+   
+
